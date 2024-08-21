@@ -1,14 +1,19 @@
 (deftheme moccafruit
-  "Created 2024-05-06.")
+  "A dark theme with a lot of brown and red tones with a little dash of color.
+Inspired by chocolate, coffe, and fruit.
+
+Version: 1.0.
+Created: 2024-08-21.
+Author: Jinnturtle.")
 
 (setq color-00 "#101008") ; (bg) dark-brown
 (setq color-01 "#d8b080") ; (fg) brown-yellow
 (setq color-02 "#60b960") ; green
-(setq color-03 "#39c6c6") ; teal
+(setq color-03 "#48b8b8") ; teal
 (setq color-04 "#aeaeff") ; blue
-(setq color-05 "#f46868") ; red
+(setq color-05 "#f85a5a") ; red
 (setq color-06 "#f27ff2") ; purple
-(setq color-07 "#ff8000") ; orange
+(setq color-07 "#ff9800") ; orange
 (setq color-08 "#808080") ; gray
 (setq color-09 "#f2d3ca") ; white-brown
 (setq color-10 "#f0ba08") ; yellow
@@ -38,14 +43,14 @@
  `(font-lock-builtin-face ((t (:foreground ,color-03))))
  `(font-lock-comment-delimiter-face ((t (:foreground ,color-08))))
  `(font-lock-comment-face ((t (:foreground ,color-08))))
- `(font-lock-constant-face ((t (:foreground ,color-07))))
+ `(font-lock-constant-face ((t (:foreground ,color-09))))
  '(font-lock-delimiter-face ((t (:inherit (font-lock-punctuation-face)))))
  '(font-lock-doc-face ((t (:inherit (font-lock-comment-face)))))
  '(font-lock-doc-markup-face ((t (:inherit (font-lock-constant-face)))))
  '(font-lock-escape-face ((t (:inherit (font-lock-regexp-grouping-backslash)))))
  '(font-lock-function-call-face ((t (:inherit (font-lock-function-name-face)))))
  `(font-lock-function-name-face ((t (:foreground ,color-09))))
- `(font-lock-keyword-face ((t (:foreground ,color-09 :weight bold))))
+ `(font-lock-keyword-face ((t (:foreground ,color-10 :weight bold))))
  `(font-lock-negation-char-face ((t (:foreground ,color-05 :weight bold))))
  `(font-lock-number-face ((t (:foreground ,color-03))))
  '(font-lock-misc-punctuation-face ((t (:inherit (font-lock-punctuation-face)))))
@@ -56,9 +61,9 @@
  '(font-lock-punctuation-face ((t nil)))
  `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-06))))
  `(font-lock-regexp-grouping-construct ((t (:foreground ,color-04))))
- `(font-lock-string-face ((t (:foreground ,color-10))))
+ `(font-lock-string-face ((t (:foreground ,color-02))))
  `(font-lock-type-face ((t (:foreground ,color-05))))
- `(font-lock-variable-name-face ((t (:foreground ,color-06))))
+ `(font-lock-variable-name-face ((t (:foreground ,color-07))))
  '(font-lock-variable-use-face ((t (:inherit (font-lock-variable-name-face)))))
  `(font-lock-warning-face ((t (:foreground ,color-05))))
  '(button ((t (:inherit (link)))))
@@ -83,7 +88,7 @@
  '(tab-bar ((t (:inherit (mode-line)))))
  `(tab-bar-tab-inactive ((t (:inherit (tab-bar-tab) :foreground ,color-foregroundD1 :weight regular))))
  `(tab-bar-tab ((t (:inherit (tab-bar) :foreground ,color-09 :weight bold))))
- `(show-paren-match ((t (:inherit (font-lock-string-face) :foreground ,color-background :background ,color-09))))
+ `(show-paren-match ((t (:inherit (font-lock-string-face) :foreground ,color-background :background ,color-02))))
  `(adoc-gen-face ((t (:foreground ,color-09))))
  '(inform7-string-face ((t (:weight regular :inherit (font-lock-string-face)))))
  `(inform7-substitution-face ((t (:inherit (inform7-string-face) :foreground ,color-06))))
