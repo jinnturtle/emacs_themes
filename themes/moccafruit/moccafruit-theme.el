@@ -2,7 +2,7 @@
   "A dark theme with a lot of brown and red tones with a little dash of color.
 Inspired by chocolate, coffe, and fruit.
 
-Version: 1.1.
+Version: 1.2.
 Created: 2024-08-21.
 Author: Jinnturtle.")
 
@@ -14,7 +14,7 @@ Author: Jinnturtle.")
 (setq color-05 "#f85a5a") ; red
 (setq color-06 "#f27ff2") ; purple
 (setq color-07 "#ff9800") ; orange
-(setq color-08 "#808080") ; gray
+(setq color-08 "#a06030") ; dark-reddish-brown
 (setq color-09 "#f2d3ca") ; white-brown
 (setq color-10 "#f0ba08") ; yellow
 (setq color-tmp "#ff00ff")
@@ -58,7 +58,7 @@ Author: Jinnturtle.")
  `(font-lock-preprocessor-face ((t (:foreground ,color-03))))
  '(font-lock-property-name-face ((t (:inherit (font-lock-variable-name-face)))))
  '(font-lock-property-use-face ((t (:inherit (font-lock-property-name-face)))))
- '(font-lock-punctuation-face ((t nil)))
+ `(font-lock-punctuation-face ((t (:foreground ,color-09))))
  `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-06))))
  `(font-lock-regexp-grouping-construct ((t (:foreground ,color-04))))
  `(font-lock-string-face ((t (:foreground ,color-02))))
@@ -70,6 +70,8 @@ Author: Jinnturtle.")
  `(link ((t (:underline (:color foreground-color :style line :position nil) :foreground ,color-04))))
  `(link-visited ((t (:underline (:color foreground-color :style line :position nil) :foreground ,color-06))))
  `(fringe ((t (:background ,color-backgroundL1))))
+ `(border ((t (:foreground ,color-08))))
+ '(vertical-border ((t (:inherit (border)))))
  `(header-line ((t (:foreground ,color-09 :inherit (mode-line)))))
  `(tooltip ((t (:background ,color-backgroundL1 :inherit (default)))))
  `(mode-line ((t (:box nil :foreground ,color-foreground :background ,color-backgroundL1))))
