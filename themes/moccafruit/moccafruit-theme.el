@@ -2,7 +2,7 @@
   "A dark theme with a lot of brown and red tones with a little dash of color.
 Inspired by chocolate, coffe, and fruit.
 
-Version: 1.0.
+Version: 1.1.
 Created: 2024-08-21.
 Author: Jinnturtle.")
 
@@ -86,7 +86,7 @@ Author: Jinnturtle.")
  '(query-replace ((t (:inherit (isearch)))))
  `(line-number-current-line ((t (:inherit (fringe) :foreground ,color-09))))
  '(tab-bar ((t (:inherit (mode-line)))))
- `(tab-bar-tab-inactive ((t (:inherit (tab-bar-tab) :foreground ,color-foregroundD1 :weight regular))))
+ `(tab-bar-tab-inactive ((t (:inherit (tab-bar-tab) :foreground ,color-08 :weight regular))))
  `(tab-bar-tab ((t (:inherit (tab-bar) :foreground ,color-09 :weight bold))))
  `(show-paren-match ((t (:inherit (font-lock-string-face) :foreground ,color-background :background ,color-02))))
  `(adoc-gen-face ((t (:foreground ,color-09))))
