@@ -35,7 +35,7 @@
  `(font-lock-comment-face ((t (:foreground ,color-foregroundD1))))
  `(font-lock-constant-face ((t (:foreground ,color-teal))))
  '(font-lock-delimiter-face ((t (:inherit (font-lock-punctuation-face)))))
- `(font-lock-doc-face ((t (:foreground ,color-black))))
+ '(font-lock-doc-face ((t (:inherit (font-lock-comment-face)))))
  '(font-lock-doc-markup-face ((t (:inherit (font-lock-constant-face)))))
  '(font-lock-escape-face ((t (:inherit (font-lock-regexp-grouping-backslash)))))
  '(font-lock-function-call-face ((t (:inherit (font-lock-function-name-face)))))
