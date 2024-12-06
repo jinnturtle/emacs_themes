@@ -95,6 +95,8 @@ Author: Jinnturtle.")
  `(adoc-gen-face ((t (:foreground ,color-09))))
  '(inform7-string-face ((t (:weight regular :inherit (font-lock-string-face)))))
  `(inform7-substitution-face ((t (:inherit (inform7-string-face) :foreground ,color-06))))
+ `(font-latex-sectioning-5-face ((t (:inherit (fixed-pitch) :foreground ,color-09 :weight bold))))
+ `(font-latex-warning-face ((t (:inherit (bold) :foreground ,color-05))))
  `(default ((t (:inherit nil :extend nil :stipple nil :background ,color-background :foreground ,color-foreground :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight regular :height 115 :width normal :foundry "UKWN" :family "mononoki"))))
 )
 
