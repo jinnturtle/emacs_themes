@@ -2,9 +2,9 @@
   "A dark theme with a lot of brown and red tones with a little dash of color.
 Inspired by chocolate, coffe, and fruit.
 
-Version: 2.0.
+Version: 2.1.
 Created: 2024-08-21.
-Updated: 2025-01-14.
+Updated: 2025-08-11.
 Author: Jinnturtle.")
 
 (setq color-00 "#101008") ; (bg) dark-brown
@@ -16,7 +16,7 @@ Author: Jinnturtle.")
 (setq color-06 "#f27ff2") ; purple
 (setq color-07 "#ff9800") ; orange
 (setq color-08 "#a06030") ; dark-reddish-brown
-(setq color-09 "#e6c4b0") ; white-brown
+(setq color-09 "#f8d4c0") ; ivory
 (setq color-10 "#f0ba08") ; yellow
 (setq color-tmp "#ff00ff")
 
@@ -51,7 +51,7 @@ Author: Jinnturtle.")
  '(font-lock-escape-face ((t (:inherit (font-lock-regexp-grouping-backslash)))))
  '(font-lock-function-call-face ((t (:inherit (font-lock-function-name-face)))))
  `(font-lock-function-name-face ((t (:foreground ,color-09))))
- `(font-lock-keyword-face ((t (:foreground ,color-09 :weight bold))))
+ `(font-lock-keyword-face ((t (:foreground ,color-09))))
  `(font-lock-negation-char-face ((t (:foreground ,color-05 :weight bold))))
  `(font-lock-number-face ((t (:foreground ,color-03))))
  '(font-lock-misc-punctuation-face ((t (:inherit (font-lock-punctuation-face)))))
@@ -94,6 +94,8 @@ Author: Jinnturtle.")
  `(show-paren-match ((t (:inherit (font-lock-string-face) :foreground ,color-background :background ,color-02))))
  `(show-paren-mismatch ((t (:inherit (font-lock-string-face) :foreground ,color-background :background ,color-05))))
  `(adoc-gen-face ((t (:foreground ,color-09))))
+ `(adoc-meta-face ((t (:foreground ,color-07))))
+ `(adoc-command-face ((t (:inherit (font-lock-preprocessor-face)))))
  '(inform7-string-face ((t (:weight regular :inherit (font-lock-string-face)))))
  `(inform7-substitution-face ((t (:inherit (inform7-string-face) :foreground ,color-06))))
  `(font-latex-sectioning-5-face ((t (:inherit (fixed-pitch) :foreground ,color-09 :weight bold))))
