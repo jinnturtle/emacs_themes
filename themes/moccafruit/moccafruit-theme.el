@@ -2,9 +2,9 @@
   "A dark theme with a lot of brown and red tones with a little dash of color.
 Inspired by chocolate, coffe, and fruit.
 
-Version: 2.1.
+Version: 2.2.
 Created: 2024-08-21.
-Updated: 2025-08-11.
+Updated: 2026-03-02.
 Author: Jinnturtle.")
 
 (setq color-00 "#101008") ; (bg) dark-brown
